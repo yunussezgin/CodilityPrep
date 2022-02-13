@@ -2,6 +2,8 @@ package com.codility;
 
 import java.util.Arrays;
 
+import com.codility.stacksandqueues.Fish;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -19,10 +21,14 @@ public class Main {
 
 		// Max Counters
 //		System.out.println(Arrays.toString(new MaxCounters().solution(5, new int[] { 3, 4, 4, 6, 1, 4, 4 })));
-		
-		// Brackets code
-		System.out.println(new Brackets().solution("()[]{}()[]{}"));
-		System.out.println(new Brackets().solution("()]]"));
+
+		// Brackets
+//		System.out.println(new Brackets().solution("()[]{}()[]{}"));
+//		System.out.println(new Brackets().solution("()]]"));
+
+		// Fish
+		System.out.println(new Fish().solution(new int[] { 4, 8, 2, 6, 7 }, new int[] { 0, 1, 1, 0, 0 }));
+		System.out.println(new Fish().solution(new int[] { 4, 8, 2, 6, 7 }, new int[] { 0, 1, 0, 0, 0 }));
 
 	}
 
