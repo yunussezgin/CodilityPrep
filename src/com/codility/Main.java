@@ -2,6 +2,7 @@ package com.codility;
 
 import java.util.Arrays;
 
+import com.codility.leader.Dominator;
 import com.codility.stacksandqueues.Fish;
 
 public class Main {
@@ -27,8 +28,12 @@ public class Main {
 //		System.out.println(new Brackets().solution("()]]"));
 
 		// Fish
-		System.out.println(new Fish().solution(new int[] { 4, 8, 2, 6, 7 }, new int[] { 0, 1, 1, 0, 0 }));
-		System.out.println(new Fish().solution(new int[] { 4, 8, 2, 6, 7 }, new int[] { 0, 1, 0, 0, 0 }));
+//		System.out.println(new Fish().solution(new int[] { 4, 8, 2, 6, 7 }, new int[] { 0, 1, 1, 0, 0 }));
+//		System.out.println(new Fish().solution(new int[] { 4, 8, 2, 6, 7 }, new int[] { 0, 1, 0, 0, 0 }));		
+
+		// Leader
+		System.out.println(new Dominator().solution(new int[] { 3, 0, 1, 1, 4, 1, 1 }));
+		System.out.println(new Dominator().solution(new int[] { 1, 2, 3, 4, 5, 6, 7 }));
 
 	}
 
