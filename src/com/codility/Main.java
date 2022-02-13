@@ -18,7 +18,11 @@ public class Main {
 //		System.out.println(Arrays.toString(new CyclicRotation().solution(new int[] { 7, 2, 8, 3, 5 }, 5)));
 
 		// Max Counters
-		System.out.println(Arrays.toString(new MaxCounters().solution(5, new int[] { 3, 4, 4, 6, 1, 4, 4 })));
+//		System.out.println(Arrays.toString(new MaxCounters().solution(5, new int[] { 3, 4, 4, 6, 1, 4, 4 })));
+		
+		// Brackets code
+		System.out.println(new Brackets().solution("()[]{}()[]{}"));
+		System.out.println(new Brackets().solution("()]]"));
 
 	}
 
