@@ -43,6 +43,9 @@ public class Main {
 		System.out.println(new task0().solution(new int[] { 1, 3, 6, 4, 1, 2 }));
 		System.out.println(new task0().solution(new int[] { 1, 2, 3 }));
 		System.out.println(new task0().solution(new int[] { -1, -3 }));
+		System.out.println(new task0().solution(new int[] { -1, -3, 0 }));
+		System.out.println(new task0().solution(new int[] { -1, -3, 5 }));
+		System.out.println(new task0().solution(new int[] { 2, 2, 2 }));
 
 		// Task1
 //		System.out.println(new task1().solution(new int[] { 3, 0, 1, 1, 4, 1, 1 }));
