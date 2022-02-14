@@ -7,6 +7,7 @@ import com.codility.demo.task1;
 import com.codility.demo.task2;
 import com.codility.demo.task3;
 import com.codility.leader.Dominator;
+import com.codility.maximumsliceproblem.MaxProfit;
 import com.codility.stacksandqueues.Fish;
 
 public class Main {
@@ -58,6 +59,9 @@ public class Main {
 		// Task3
 //		System.out.println(new task3().solution(new int[] { 3, 0, 1, 1, 4, 1, 1 }));
 //		System.out.println(new task3().solution(new int[] { 3, 0, 1, 1, 4, 1, 1 }));
+
+		// Max Profit
+		System.out.println(new MaxProfit().solution(new int[] { 23171, 21011, 21123, 21366, 21013, 21367 }));
 
 	}
 
